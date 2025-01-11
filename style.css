@@ -1,16 +1,16 @@
-/* Mengatur gaya global */
+/* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #0f172a, #1e293b); /* Tema gelap dengan gradasi */
-    color: #e2e8f0; /* Warna teks terang */
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #e2e8f0;
 }
 
-/* Gaya header */
+/* Header */
 header {
     background: #1e293b;
-    color: #38bdf8; /* Warna biru cerah */
+    color: #38bdf8;
     padding: 20px;
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
@@ -18,22 +18,18 @@ header {
 
 header h1 {
     font-size: 2.5em;
-    margin: 0;
     text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 header p {
-    font-size: 1.2em;
-    margin: 10px 0 0;
+    margin: 10px 0;
 }
 
-/* Gaya navigasi */
+/* Navigation */
 nav {
     display: flex;
     justify-content: center;
     background: #0f172a;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 nav a {
@@ -42,16 +38,15 @@ nav a {
     padding: 15px 25px;
     text-transform: uppercase;
     font-weight: bold;
-    transition: all 0.3s ease-in-out;
+    transition: background 0.3s ease;
 }
 
 nav a:hover {
-    color: #38bdf8;
     background: #1e293b;
     border-radius: 5px;
 }
 
-/* Gaya untuk bagian konten */
+/* Sections */
 section {
     padding: 40px 20px;
     max-width: 1200px;
@@ -59,55 +54,29 @@ section {
 }
 
 section h2 {
-    font-size: 2em;
     border-bottom: 2px solid #38bdf8;
     display: inline-block;
-    margin-bottom: 20px;
 }
 
 .project, .experience {
     background: #1e293b;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.project:hover, .experience:hover {
-    transform: scale(1.03);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .project h3, .experience h3 {
     color: #38bdf8;
-    margin: 0 0 10px;
 }
 
-.project p, .experience p {
-    margin: 0;
-    line-height: 1.6;
-}
-
-/* Gaya untuk bagian kontak */
-section#contact a {
-    color: #38bdf8;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-section#contact a:hover {
-    text-decoration: underline;
-}
-
-/* Gaya footer */
+/* Footer */
 footer {
     text-align: center;
-    padding: 10px 20px;
     background: #0f172a;
     color: #64748b;
-    font-size: 0.9em;
+    padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.5);
 }
