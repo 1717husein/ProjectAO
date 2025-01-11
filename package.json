@@ -1,3 +1,7 @@
+"scripts": {
+    "start": "npx live-server", 
+    "build": "echo 'Build script not defined yet!'"
+}
 {
   "name": "blockchain-portfolio",
   "version": "1.0.0",
@@ -6,7 +10,7 @@
   "scripts": {
     "start": "npx live-server"
   },
-  "author": "Your Name",
+  "author": "Shakeel hs",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
