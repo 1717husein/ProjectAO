@@ -1,0 +1,15 @@
+{
+  "name": "blockchain-portfolio",
+  "version": "1.0.0",
+  "description": "A simple portfolio website showcasing blockchain projects and experience.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
